@@ -22,7 +22,7 @@ bgimg = pygame.transform.scale(bgimg, (screen_width, screen_height)).convert_alp
 bdimg = pygame.image.load("game_over.jpg")
 bdimg = pygame.transform.scale(bdimg, (screen_width, screen_height)).convert_alpha()
 
-pygame.display.set_caption("Snakes_Pycoder")
+pygame.display.set_caption("Snakes_PyCoder15")
 pygame.display.update()
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 55)

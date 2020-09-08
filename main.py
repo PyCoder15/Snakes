@@ -41,7 +41,7 @@ def welcome():
         gameWindow.fill((255,255,0))
         text_screen("Welcome to Snakes", black, 260, 250)
         text_screen("Press Space Bar To Play", black, 230, 290)
-        pygame.mixer.music.load('audio/game_over.mp3')
+        pygame.mixer.music.load('game_over.mp3')
         pygame.mixer.music.pause()
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
